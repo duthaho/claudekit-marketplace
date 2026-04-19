@@ -1,0 +1,17 @@
+{
+  "name": "claudekit-marketplace",
+  "owner": {
+    "name": "duthaho",
+    "url": "https://github.com/duthaho"
+  },
+  "plugins": [
+    {
+      "name": "claudekit",
+      "description": "Comprehensive toolkit — 44 skills, 20 agents, interactive setup wizard for rules, modes, hooks, and MCP servers.",
+      "source": {
+        "source": "github",
+        "repo": "duthaho/claudekit"
+      }
+    }
+  ]
+}
