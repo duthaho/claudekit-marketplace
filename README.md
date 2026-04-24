@@ -1,6 +1,6 @@
 # Claudekit Marketplace
 
-Official marketplace for the [claudekit](https://github.com/duthaho/claudekit) plugin — a comprehensive toolkit for Claude Code with 44 skills, 20 agents, and an interactive setup wizard.
+Official marketplace for the [claudekit](https://github.com/duthaho/claudekit) plugin — the development-workflow plugin for Claude Code. 35 skills organized around a 6-phase workflow, 24 agents, and an interactive setup wizard.
 
 ## Install
 
@@ -26,14 +26,24 @@ Official marketplace for the [claudekit](https://github.com/duthaho/claudekit) p
 
 ## What You Get
 
-- **44 Skills** — Auto-triggered by context: languages, frameworks, TDD, debugging, security, workflows, and more
-- **20 Agents** — Specialized subagents for code review, testing, security audits, database design, and more
+- **35 Skills** organized around a 6-phase workflow: Think → Review → Build → Ship → Maintain → Setup
+- **13 user-invocable spine skills** — typed directly as `/claudekit:<name>` (brainstorming, writing-plans, autoplan, 4 plan-reviewers, feature-workflow, TDD, systematic-debugging, verification-before-completion, mode-switching, init); the rest auto-trigger by context
+- **24 Specialized Agents** — planners, reviewers, implementers, and 4 plan-dimension reviewers (ceo, eng, design, devex)
 - **Setup Wizard** — `/claudekit:init` scaffolds rules, modes, hooks, and MCP servers into your project
+
+## Updating
+
+Once installed, update to the latest version with:
+
+```
+/plugin marketplace update
+```
 
 ## Links
 
 - [Plugin repo](https://github.com/duthaho/claudekit)
 - [Documentation](https://duthaho.github.io/claudekit)
+- [Changelog](https://github.com/duthaho/claudekit/blob/main/CHANGELOG.md)
 
 ## License
 
