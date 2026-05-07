@@ -7,8 +7,8 @@
   "plugins": [
     {
       "name": "claudekit",
-      "description": "The development-workflow plugin for Claude Code — 35 skills organized around a 6-phase workflow (Think → Review → Build → Ship → Maintain → Setup), 24 agents, and an interactive setup wizard for rules, modes, hooks, and MCP servers.",
-      "version": "3.1.0",
+      "description": "Verification-first engineering toolkit — 15 skills around a 5-phase spine (Investigate → Design → Implement → Verify → Ship), 8 specialist agents, 5 output styles, interactive setup wizard. Rationalizations + evidence requirements in every skill. For senior ICs and tech leads.",
+      "version": "4.0.0",
       "source": {
         "source": "github",
         "repo": "duthaho/claudekit"
